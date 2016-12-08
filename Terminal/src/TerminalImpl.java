@@ -4,7 +4,7 @@ public class TerminalImpl implements Terminal {
     private final TerminalServer server;
     private final PidValidator validator;
 
-    public TerminalImpl(){
+    public TerminalImpl() {
         validator = new PidValidator();
         server = new TerminalServer();
     }

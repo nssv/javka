@@ -1,13 +1,10 @@
-
 import Exceptions.InvalidPidException;
 import Exceptions.NoMoneyException;
 import Exceptions.WithoutAccessException;
 
 import java.util.Objects;
 
-/**
- * Created by SBT-Novogorodtcev-SV on 09.11.2016.
- */
+
 public class TerminalServer {
     private boolean access;
     private int balance;
